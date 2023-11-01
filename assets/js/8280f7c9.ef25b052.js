@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmimid_docs=self.webpackChunkmimid_docs||[]).push([[7700],{682:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/mimid-docs/blog/tags/docusaurus","allTagsPath":"/mimid-docs/blog/tags","count":4,"unlisted":false}')}}]);

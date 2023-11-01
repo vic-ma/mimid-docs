@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmimid_docs=self.webpackChunkmimid_docs||[]).push([[332],{2653:s=>{s.exports=JSON.parse('{"permalink":"/mimid-docs/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
