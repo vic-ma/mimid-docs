@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmimid_docs=self.webpackChunkmimid_docs||[]).push([[9188],{8675:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/mimid-docs/blog/tags/hola","allTagsPath":"/mimid-docs/blog/tags","count":1,"unlisted":false}')}}]);
