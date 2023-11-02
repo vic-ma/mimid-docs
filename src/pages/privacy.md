@@ -1,9 +1,8 @@
 ---
 hide_table_of_contents: true
-# TODO
 ---
 
-# Mimid Docs Privacy Policy
+# Privacy Policy
 
 <br />
 
