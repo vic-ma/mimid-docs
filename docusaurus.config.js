@@ -67,11 +67,11 @@ const config = {
         links: [
           {
             label: "Privacy Policy",
-            to: "/",
+            to: "privacy",
           },
           {
             label: "GitHub",
-            to: "/",
+            href: "https://github.com/vic-ma/mimid-docs",
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Victor Ma`,
