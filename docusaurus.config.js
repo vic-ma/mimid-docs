@@ -77,8 +77,11 @@ const config = {
             label: "GitHub",
             href: "https://github.com/vic-ma/mimid-docs",
           },
+          {
+            label: "Donate",
+            href: "https://ko-fi.com/mimid",
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Victor Ma`,
       },
       prism: {
         theme: prismThemes.github,

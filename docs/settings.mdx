@@ -4,26 +4,27 @@ title: Settings
 
 ## Auto-paste Video URL
 
-**Allow Mimid to automatically load videos URLs you have copied.**
+**Let Mimid automatically load video URLs you have copied.**
+
 This removes the need to manually paste video URLs into the URL bar.
 
 ## Scale Skips by Speed
 
-**Scale skip amounts based on the current speed.**
-This makes the amount that you skip by represent real time, and not player time.
+**Scale skip amounts based on the current player speed.**
 
-So if you skip five seconds at normal speed, the player still skips five seconds. ($5 s * 1 = 5 s$)
+This makes the amount of time skipped represent real time, and not player time.
+For example, if you're playing at normal speed, and you skip backward five seconds, then the player will move back five seconds,
+since ${5 {\rm \ s} \cdot 1{\rm x \ speed} = 1 \rm{\ s}}$.
+But if you're playing at half speed, and you skip backward five seconds, then the player will move back 2.5 seconds, since $5 \cdot 0.5 = 2.5$.
 
 ## Skip Back Auto-Pause
 
-**Automatically pause after you return to the place you skipped from.**
+**Automatically pause after you return to the place you skipped backward from.**
 
-After you skip backward and wait for the player to return to the place you skipped from, Mimid will automatically pause the player.
+If you skip backward and let the player play until it returns to the place you skipped from, Mimid will automatically pause the player.
 
 This can be useful if you find yourself frequently pausing after you skip backward, and you'd rather have Mimid do it automatically.
 
 :::tip
-
-The timer mechanism behind this setting work isn't entirely accurate. So this setting works better for longer backward jumps, like five seconds.
-
+The timer mechanism behind this setting is a little inaccurate. So this setting works better for longer backward jumps, like five seconds.
 :::
