@@ -66,7 +66,21 @@ This can be useful if you have a taller phone and want the controls to be closer
 
 **These settings change Mimid's controls layout.**
 
-The controls layout is represented by a grid.
+You can set Mimid's controls layout by changing the **controls layout grid**.
+This grid contains cells, which are either set to a button, or are empty.
+
+The positioning of these cells determine which buttons appear where.
+For example, a button in the top-left cell of the grid becomes a button in the top-left corner of the controls.
+
+Multiple cells of the same button next to each other creates a bigger button in the controls.
+
+:::info
+Multiple cells of the same button must form a rectangular area.
+So you can't have something like an L-shaped button.
+You also can't have more than one of the same button.
+:::
+
+This image shows how the controls layout grid affects the controls.
 
 <img
   src={ControlsWithGridlines}
@@ -74,30 +88,30 @@ The controls layout is represented by a grid.
   alt="Mimid controls with overlaid gridlines"
 />
 
-Each cell in the grid is either a button, or it is empty.
-Multiple cells of the same button form a bigger button.
+<br />
+<br />
 
-Buttons can only be rectangular in shape, and you can't have more than one of the same button.
+And here's what the default controls layout grid is.
 
-<table>
+<table width="400px">
   <tbody>
     <tr>
-      <td>**Play Button**</td>
-      <td>**Play Button**</td>
-      <td>**Play Button**</td>
-      <td>**Play Button**</td>
+      <td style={{ textAlign: "center" }}>**Play Button**</td>
+      <td style={{ textAlign: "center" }}>**Play Button**</td>
+      <td style={{ textAlign: "center" }}>**Play Button**</td>
+      <td style={{ textAlign: "center" }}>**Play Button**</td>
     </tr>
     <tr>
-      <td>**Loop Button**</td>
-      <td>**Loop Button**</td>
-      <td>**Speed Button**</td>
-      <td>**Speed Button**</td>
+      <td style={{ textAlign: "center" }}>**Loop Button**</td>
+      <td style={{ textAlign: "center" }}>**Loop Button**</td>
+      <td style={{ textAlign: "center" }}>**Speed Button**</td>
+      <td style={{ textAlign: "center" }}>**Speed Button**</td>
     </tr>
     <tr>
-      <td>**Skip Backward Long Button**</td>
-      <td>**Skip Backward Short Button**</td>
-      <td>**Skip Forward Short Button**</td>
-      <td>**Skip Forward Long Button**</td>
+      <td style={{ textAlign: "center" }}>**Skip Backward Long Button**</td>
+      <td style={{ textAlign: "center" }}>**Skip Backward Short Button**</td>
+      <td style={{ textAlign: "center" }}>**Skip Forward Short Button**</td>
+      <td style={{ textAlign: "center" }}>**Skip Forward Long Button**</td>
     </tr>
   </tbody>
 </table>
@@ -113,3 +127,4 @@ Buttons can only be rectangular in shape, and you can't have more than one of th
 ### Grid
 
 **Set the individual cells of the controls grid.**
+auto (admon.)
