@@ -2,6 +2,8 @@
 title: Settings
 ---
 
+import ControlsWithGridlines from "/img/ControlsWithGridlines.png";
+
 ## Auto-paste Video URL
 
 **Mimid will automatically load video URLs you have copied.**
@@ -57,3 +59,57 @@ This can be useful if you want some silence in between loops, in order to try th
 ## Controls Offset
 
 **Push the controls lower on the screen.**
+
+This can be useful if you have a taller phone and want the controls to be closer to the bottom, for example.
+
+## Controls
+
+**These settings change Mimid's controls layout.**
+
+The controls layout is represented by a grid.
+
+<img
+  src={ControlsWithGridlines}
+  width="400px"
+  alt="Mimid controls with overlaid gridlines"
+/>
+
+Each cell in the grid is either a button, or it is empty.
+Multiple cells of the same button form a bigger button.
+
+Buttons can only be rectangular in shape, and you can't have more than one of the same button.
+
+<table>
+  <tbody>
+    <tr>
+      <td>**Play Button**</td>
+      <td>**Play Button**</td>
+      <td>**Play Button**</td>
+      <td>**Play Button**</td>
+    </tr>
+    <tr>
+      <td>**Loop Button**</td>
+      <td>**Loop Button**</td>
+      <td>**Speed Button**</td>
+      <td>**Speed Button**</td>
+    </tr>
+    <tr>
+      <td>**Skip Backward Long Button**</td>
+      <td>**Skip Backward Short Button**</td>
+      <td>**Skip Forward Short Button**</td>
+      <td>**Skip Forward Long Button**</td>
+    </tr>
+  </tbody>
+</table>
+
+### Rows
+
+**Set the number of rows in the controls grid.**
+
+### Columns
+
+**Set the number of columns in the controls grid.**
+
+### Grid
+
+**Set the individual cells of the controls grid.**
