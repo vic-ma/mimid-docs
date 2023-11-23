@@ -59,6 +59,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { name: "author", content: "Victor Ma" },
+        { name: "description", content: "Documentation for Mimid." },
+      ],
       navbar: {
         title: "Mimid Docs",
         logo: {
@@ -70,16 +74,34 @@ const config = {
         style: "dark",
         links: [
           {
-            label: "Privacy Policy",
-            to: "privacy",
+            title: "Mimid",
+            items: [
+              {
+                label: "App",
+                href: "https://mimid.app",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/vic-ma/mimid",
+              },
+              {
+                label: "Donate",
+                href: "https://ko-fi.com/mimid",
+              },
+            ],
           },
           {
-            label: "GitHub",
-            href: "https://github.com/vic-ma/mimid-docs",
-          },
-          {
-            label: "Donate",
-            href: "https://ko-fi.com/mimid",
+            title: "Mimid Docs",
+            items: [
+              {
+                label: "Privacy Policy",
+                to: "privacy",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/vic-ma/mimid-docs",
+              },
+            ],
           },
         ],
       },
