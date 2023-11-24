@@ -64,23 +64,23 @@ This can be useful if you have a taller phone and want the controls to be closer
 
 ## Controls
 
-**These settings change Mimid's controls layout.**
+**Change Mimid's control layout.**
 
-You can set Mimid's controls layout by changing the **controls layout grid**.
+You can change Mimid's control layout through the **control layout grid**.
+
 This grid contains cells, which are either set to a button, or are empty.
-
 The positioning of these cells determine which buttons appear where.
-For example, a button in the top-left cell of the grid becomes a button in the top-left corner of the controls.
+For example, a button in the top-left cell of the grid will cause that button to appear in the top-left corner of the controls.
 
-Multiple cells of the same button next to each other creates a bigger button in the controls.
+Having multiple cells of the same button next to each other result in a bigger button.
 
 :::info
 Multiple cells of the same button must form a rectangular area.
 So you can't have something like an L-shaped button.
-You also can't have more than one of the same button.
+You also can't have more than one of each button.
 :::
 
-This image shows the grid on top of the default Mimid controls.
+This image shows how the grid relates to the controls.
 
 <img
   src={ControlsWithGridlines}
@@ -91,9 +91,9 @@ This image shows the grid on top of the default Mimid controls.
 <br />
 <br />
 
-And here's what the default controls layout grid is.
+And here's what the default control layout grid looks like.
 
-<table width="400px">
+<table>
   <tbody>
     <tr>
       <td style={{ textAlign: "center" }}>**Play Button**</td>
@@ -118,11 +118,11 @@ And here's what the default controls layout grid is.
 
 You can change the number of rows and columns in the grid to get the exact size of buttons that you want.
 For example, let's say you want the Play Button to take up the top 30% of the controls.
-Then, you could set the number of rows to 10, and set the cells in the first three rows to the Play Button.
+Then, you would set the number of rows to 10, and set the cells in the first three rows to the Play Button.
 
 :::info
 The number of rows and columns does not change the size of the box that holds the controls.
-That size always stays the same.
+All it does is give you more control over the size of the buttons _within_ the controls.
 :::
 
 ### Rows
@@ -136,4 +136,9 @@ That size always stays the same.
 ### Grid
 
 **Set the individual cells of the controls grid.**
-auto (admon.)
+
+:::tip
+To set multiple cells to the same button,
+you only need to set the top-left and bottom-right cells of the area you want.
+Mimid will automatically set everything in between to the same cell.
+:::
