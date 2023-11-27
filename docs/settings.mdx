@@ -4,13 +4,13 @@ title: Settings
 
 import ControlsWithGridlines from "/img/ControlsWithGridlines.png";
 
-## Auto-paste Video URL
+## Auto-paste video URL
 
 **Automatically load video if you have a video URL copied.**
 
 This removes the need to manually paste video URLs into the URL bar.
 
-## Scale Skips by Speed
+## Scale skips by speed
 
 **Scale skip amounts based on the current player speed.**
 
@@ -21,7 +21,7 @@ This may make the skip buttons feel more natural to you.
 For reference, the YouTube website scales skips by speed, while the YouTube mobile app does not.
 :::
 
-## Skip Back Auto-Pause
+## Skip back auto-pause
 
 **Automatically pause after you skip backward and return to where you skipped from.**
 
@@ -36,33 +36,22 @@ The auto-pause feature actually just uses a simple timer.
 So the pause will happen whether or not you return to where you skipped from.
 :::
 
-## Slow Speed
+## Slow speed
 
 **Set the speed to use when the Slow Speed Button is on.**
 
-## Delay Between Loops
+## Delay between loops
 
-**Set the amount of time to pause for before a loop repeats itself.**
+**Set the amount of time to pause before a loop repeats itself.**
 
-This can be useful if you want some silence in between loops, in order to try the thing you just heard.
+This can be useful if you want some silence in between loops,
+in order to try playing the thing you just heard.
 
-## Skip Backward Long
+## Skip buttons
 
-**Set the amount of time that the Skip Backward Long Button skips.**
+**Set the skip amount for each skip button.**
 
-## Skip Backward Short
-
-**Set the amount of time that the Skip Backward Short Button skips.**
-
-## Skip Forward Short
-
-**Set the amount of time that the Skip Forward Short Button skips.**
-
-## Skip Forward Long
-
-**Set the amount of time that the Skip Forward Long Button skips.**
-
-## Controls Offset
+## Controls offset
 
 **Push the controls lower on the screen.**
 
@@ -72,11 +61,12 @@ This can be useful if you have a taller phone and want the controls to be closer
 
 **Change Mimid's control layout.**
 
-You can change Mimid's control layout through the **control layout grid**.
+You can change Mimid's control layout by changing the **control layout grid**.
 
-The cells in this grid are either set to a button, or are empty.
-The positioning of these cells determine which buttons appear where.
-For example, a setting the top-left cell to the Play Button will cause the Play Button to appear in the top-left corner of the controls.
+The cells in this grid are set to a button.
+The positioning of these cells determine which buttons appear where, in the actual controls.
+For example, let's say you set the top-left cell of the grid to the Play Button.
+Then, the Play Button will appear in the top-left corner of the controls.
 
 Having multiple cells of the same button next to each other result in a bigger button.
 
@@ -86,7 +76,7 @@ So you can't have something like an L-shaped button.
 You also can't have more than one of each button.
 :::
 
-This image shows how the grid relates to the controls.
+This image shows the control layout grid on top of the default controls.
 
 <img
   src={ControlsWithGridlines}
@@ -122,22 +112,18 @@ And here's what the default control layout grid looks like.
   </tbody>
 </table>
 
-You can change the number of rows and columns in the grid to get the exact size of buttons that you want.
+### Rows and columns
+
+**Set the number of rows and columns in the controls grid.**
+
+You can change the number of rows and columns in the grid in order to get the exact size of buttons that you want.
 For example, let's say you want the Play Button to take up the top 30% of the controls.
 Then, you would set the number of rows to 10, and set the cells in the first three rows to the Play Button.
 
 :::info
-The number of rows and columns does not change the actual size of the the controls.
-All it does is give you more control over the size of the buttons _within_ the controls.
+The number of rows and columns does not change the actual size of the controls.
+It just gives you more freedom over the size of the buttons _within_ the controls.
 :::
-
-### Rows
-
-**Set the number of rows in the controls grid.**
-
-### Columns
-
-**Set the number of columns in the controls grid.**
 
 ### Grid
 
