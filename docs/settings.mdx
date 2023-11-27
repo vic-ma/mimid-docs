@@ -6,7 +6,7 @@ import ControlsWithGridlines from "/img/ControlsWithGridlines.png";
 
 ## Auto-paste Video URL
 
-**Mimid will automatically load video URLs you have copied.**
+**Automatically load video if you have a video URL copied.**
 
 This removes the need to manually paste video URLs into the URL bar.
 
@@ -14,7 +14,7 @@ This removes the need to manually paste video URLs into the URL bar.
 
 **Scale skip amounts based on the current player speed.**
 
-This makes the number on the skip buttons represent real time, and not player time.
+This makes the number on the skip buttons represent the amount of real time skipped, and not player time.
 This may make the skip buttons feel more natural to you.
 
 :::info
@@ -27,8 +27,14 @@ For reference, the YouTube website scales skips by speed, while the YouTube mobi
 
 After you skip backward and the player plays until it returns to where you skipped from, the player will automatically pause.
 
-This can be useful if you often skip backward, let the song play, and then press pause before you try it on your instrument.
+This can be useful if you often find yourself skipping backward, letting the song play,
+and then pressing pause before you play on your instrument.
 With this setting enabled, you don't have to press pause manually.
+
+:::info
+The auto-pause feature actually just uses a simple timer.
+So the pause will happen whether or not you return to where you skipped from.
+:::
 
 ## Slow Speed
 
@@ -68,9 +74,9 @@ This can be useful if you have a taller phone and want the controls to be closer
 
 You can change Mimid's control layout through the **control layout grid**.
 
-This grid contains cells, which are either set to a button, or are empty.
+The cells in this grid are either set to a button, or are empty.
 The positioning of these cells determine which buttons appear where.
-For example, a button in the top-left cell of the grid will cause that button to appear in the top-left corner of the controls.
+For example, a setting the top-left cell to the Play Button will cause the Play Button to appear in the top-left corner of the controls.
 
 Having multiple cells of the same button next to each other result in a bigger button.
 
@@ -121,7 +127,7 @@ For example, let's say you want the Play Button to take up the top 30% of the co
 Then, you would set the number of rows to 10, and set the cells in the first three rows to the Play Button.
 
 :::info
-The number of rows and columns does not change the size of the box that holds the controls.
+The number of rows and columns does not change the actual size of the the controls.
 All it does is give you more control over the size of the buttons _within_ the controls.
 :::
 

@@ -11,7 +11,8 @@ import rehypeKatex from "rehype-katex";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Mimid Docs",
-  tagline: "Documentation for Mimid",
+  tagline:
+    "Documentation for Mimid, the music player designed for learning songs by ear.",
   favicon: "img/maximized_icon.png",
 
   // Set the production url of your site here
