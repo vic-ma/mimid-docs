@@ -29,7 +29,7 @@ const sidebars = {
   ],
    */
 
-  sidebar: ["index", "how-to-use", "settings"],
+  sidebar: ["index", "why-mimid", "how-to-use", "settings"],
 };
 
 export default sidebars;
