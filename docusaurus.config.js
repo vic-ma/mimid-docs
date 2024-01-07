@@ -82,8 +82,12 @@ const config = {
                 href: "https://mimid.app",
               },
               {
-                label: "GitHub",
+                label: "Source Code",
                 href: "https://github.com/vic-ma/mimid",
+              },
+              {
+                label: "Analytics",
+                href: "https://plausible.io/mimid.app",
               },
               {
                 label: "Donate",
@@ -99,8 +103,12 @@ const config = {
                 to: "privacy",
               },
               {
-                label: "GitHub",
+                label: "Source Code",
                 href: "https://github.com/vic-ma/mimid-docs",
+              },
+              {
+                label: "Analytics",
+                href: "https://plausible.io/docs.mimid.app",
               },
             ],
           },
