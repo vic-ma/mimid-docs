@@ -121,6 +121,14 @@ const config = {
       crossorigin: "anonymous",
     },
   ],
+
+  scripts: [
+    {
+      src: "https://plausible.io/js/script.js",
+      defer: true,
+      "data-domain": "docs.mimid.app",
+    },
+  ],
 };
 
 export default config;
