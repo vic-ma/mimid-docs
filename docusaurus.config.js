@@ -89,10 +89,6 @@ const config = {
                 href: "https://github.com/vic-ma/mimid",
               },
               {
-                label: "Analytics",
-                href: "https://plausible.io/mimid.app",
-              },
-              {
                 label: "Donate",
                 href: "https://ko-fi.com/mimid",
               },
@@ -108,10 +104,6 @@ const config = {
               {
                 label: "Source Code",
                 href: "https://github.com/vic-ma/mimid-docs",
-              },
-              {
-                label: "Analytics",
-                href: "https://plausible.io/docs.mimid.app",
               },
             ],
           },
@@ -130,14 +122,6 @@ const config = {
       integrity:
         "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
       crossorigin: "anonymous",
-    },
-  ],
-
-  scripts: [
-    {
-      src: "https://plausible.io/js/script.js",
-      defer: true,
-      "data-domain": "docs.mimid.app",
     },
   ],
 };
